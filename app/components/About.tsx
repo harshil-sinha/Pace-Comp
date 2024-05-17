@@ -1,12 +1,12 @@
 import { userInfo } from "../constants/constant";
-
+import Image from 'next/image';
 const About: React.FC = () => {
     return (
         <section id="about" className="my-20 p-8 bg-gray-100 rounded-lg shadow-md">
             <div className="flex flex-col items-center md:flex-row md:items-start">
                 <div className="md:w-1/3 mb-6 md:mb-0 star">
-                    <img
-                        src="./dp-3.png"
+                    <Image
+                        src={userInfo.img2}
                         alt="Profile picture"
                         width={300}
                         height={300}

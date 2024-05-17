@@ -5,6 +5,7 @@ export interface UserObject {
     picture: string,
     resume: string,
     about: string,
-    skills: Array<string>
+    skills: Array<string>,
+    img2 : string
 
 }
